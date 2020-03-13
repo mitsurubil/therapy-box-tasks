@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" name="blog-post" action="">
+            <fieldset>
+                <legend>Blog Post Form</legend>
+                <label>Title: <input type="text" name="title" required></label>
+                <label for="message">Message:</label>
+                <textarea rows="3" cols="30" name="address" id="address" minlength="30" required></textarea>
+                <label for="file-select">Upload:</label>
+                <input type="file" name="upload" id="file-select" accept="image/*" required>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
