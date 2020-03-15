@@ -13,13 +13,16 @@
         <form method="post" name="blog-post" action="">
             <fieldset>
                 <legend>Blog Post Form</legend>
-                <label>Title: <input type="text" name="title" required></label>
-                <label for="message">Message:</label>
+                <label>Title</label>
+                <input type="text" name="title" required>
+                <label for="message">Message</label>
                 <textarea rows="3" cols="30" name="address" id="address" minlength="30" required></textarea>
-                <label for="file-select">Upload:</label>
+                <label for="file-select">Upload</label>
                 <input type="file" name="upload" id="file-select" accept="image/*" required>
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset">
+                <label>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </label>
             </fieldset>
         </form>
     </div>
