@@ -33,14 +33,15 @@ Please keep in mind that using the React.Component class will not be considered 
 
 4. Make a sql query
 Given those two tables:
-
+```
 people
 Id	Name	City
 1	Alex	London
 2	Stuart	Manchester
 3	Nikolay	Paris
 4	Rob	Madrid
-
+```
+```
 employees
 Id	PeopleId	Occupation
 1	2	Project manager
@@ -49,6 +50,7 @@ Id	PeopleId	Occupation
 4	4	Developer
 5	3	Developer
 6	2	Designer
+```
 Can you write an sql query to retrieve all the people's name that are Developer and Designer?
 
 5. Write a function
