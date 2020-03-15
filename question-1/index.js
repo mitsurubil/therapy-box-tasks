@@ -12,5 +12,5 @@ getFact.addEventListener('click', function () {
     // Loading Placeholder
     factPlaceholder.innerHTML = "Loading...";
     factPlaceholder.innerHTML = facts;
-  }).catch(err => console.log('failed'));
+  }).catch(err => factPlaceholder.innerHTML = "MEOW! Our cat facts will be back soon");
 });

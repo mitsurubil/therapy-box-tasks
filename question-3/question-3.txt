@@ -13,7 +13,7 @@ function SequentialCounterComponent() {
 This code set a counter that will go incrementaly till 1000.
 The hooks method seems to be used. 
 However, the useEffect is missing as well as the clear interval.
-Setting the state inside teh useEffect triggers it to rerender. You will see the number increase.
+Setting the state inside the useEffect triggers it to rerender. You will see the number increase.
 
 
 
