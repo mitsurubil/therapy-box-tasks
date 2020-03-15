@@ -1,4 +1,4 @@
-# therapy-box-tasks
+# Therapy box Tasks
 This repository was made to answer Therapy box's questions :)
 
 ## 1. Provide the code to make an asynchronous http request
@@ -39,7 +39,7 @@ Id	Name	City
 1	Alex	London
 2	Stuart	Manchester
 3	Nikolay	Paris
-4	Rob	   Madrid
+4	Rob	 Madrid
 ```
 ```
 employees
