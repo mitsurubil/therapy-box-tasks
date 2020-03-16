@@ -23,11 +23,11 @@ function SequentialCounterComponent() {
   const [counter, setCounter] = React.useState(0);
 
   useEffect(() => {
-    let interval = setInterval(() => {
-      setCounter(counter + 1)
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
+      let interval = setInterval(() => {
+        setCounter(counter + 1);
+      }, 1000);
+      return () => clearInterval(interval);
+    },[counter]);
 
   return <div>Count: {counter}</div>
 };
