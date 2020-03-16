@@ -1,2 +1,4 @@
-SELECT * FROM people AS p INNER JOIN employees AS emp on p.id = emp.PeopleId 
+SELECT * FROM people AS p INNER JOIN employees AS emp ON p.id = emp.PeopleId 
 WHERE emp.Occupation = 'Designer' and emp.Occupation = 'Developer';
+
+Here the WHERE will allow us to filter the data.
